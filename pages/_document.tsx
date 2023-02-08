@@ -17,7 +17,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {CssBaseline.flush()}
-          <Script src="../api/hotjar"/>
+          <script src="../hotjar"></script>
         </Head>
         <body>
           <Main />
