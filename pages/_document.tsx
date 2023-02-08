@@ -1,7 +1,7 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript, DocumentContext } from "next/document";
 import { CssBaseline } from "@nextui-org/react";
-
+import Script from 'next/script';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx:DocumentContext) {
@@ -15,7 +15,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>{CssBaseline.flush()}</Head>
+        <Head>
+          {CssBaseline.flush()}
+          <Script src="../api/hotjar"/>
+        </Head>
         <body>
           <Main />
           <NextScript />
