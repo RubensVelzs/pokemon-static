@@ -15,7 +15,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>{CssBaseline.flush()}</Head>
+        <Head>
+          {CssBaseline.flush()}
+          <script src="https://static.hotjar.com/c/hotjar-3356641.js?sv=6"></script>
+        </Head>
         <body>
           <Main />
           <NextScript />

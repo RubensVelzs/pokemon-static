@@ -7,13 +7,7 @@ import { useEffect } from 'react';
 import {hotjar} from 'react-hotjar';
 
 
-export default function App({ Component, pageProps }: AppProps) {
-
-  useEffect(() => {
-    hotjar.initialize(3356641,6);
-    console.log('entró')
-  }, [])
-  
+export default function App({ Component, pageProps }: AppProps) {  
   return (
     <NextUIProvider theme={darkTheme}>
         <Component {...pageProps} />
