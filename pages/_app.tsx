@@ -11,7 +11,7 @@ const {publicRuntimeConfig} = getConfig();
 
 export default function App({ Component, pageProps }: AppProps) {  
   useEffect(()=>{
-    hotjar.initialize(publicRuntimeConfig.hotjarId, publicRuntimeConfig.hotjarSv);
+    hotjar.initialize(Number(publicRuntimeConfig.hotjarId), Number(publicRuntimeConfig.hotjarSv));
   },[])
   return (
     <NextUIProvider theme={darkTheme}>
