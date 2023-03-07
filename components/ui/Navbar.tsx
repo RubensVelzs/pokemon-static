@@ -21,7 +21,7 @@ export const Navbar:React.FC = ():JSX.Element => {
          
          
             <Text color='white' h2>P</Text>
-            <Text color='white' h3>okémons</Text>
+            <Text color='white' h3>okémonssssssss</Text>
           </Link>
 
         
