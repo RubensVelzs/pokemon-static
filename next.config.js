@@ -3,7 +3,7 @@
 const securityHeaders = [
   {
     key: 'X-Frame-Options',
-    value: 'SAMEORIGIN',
+    value: 'DENY',
   },
 ];
 
