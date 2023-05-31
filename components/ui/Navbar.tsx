@@ -21,7 +21,9 @@ export const Navbar:React.FC = ():JSX.Element => {
          
          
             <Text color='white' h2>Pokemons</Text>
-          {/*   <Text color='white' h3>okémons</Text> */}
+            <Text color='white' h3>ok</Text>
+            <Text color='white' h3>ok</Text>
+            <Text color='white' h3>ok</Text>
           </Link>
 
         
