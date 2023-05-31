@@ -25,6 +25,7 @@ export const Navbar:React.FC = ():JSX.Element => {
           </Link>
 
           <Spacer>spacer 5</Spacer>
+          <Spacer>spacer 6</Spacer>
       
       <Link href="/favorites">
         <Text color='white'>Favoritos</Text>
