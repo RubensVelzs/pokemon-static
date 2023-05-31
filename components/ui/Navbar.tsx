@@ -14,7 +14,7 @@ export const Navbar:React.FC = ():JSX.Element => {
         padding:"0px 20px",
         backgroundColor:theme?.colors.gray100.value
     }}>
-        <Image alt="App icon" height={70} src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" width={70}/>
+       {/*  <Image alt="App icon" height={70} src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" width={70}/> */}
 
   
           <Link href="/">
