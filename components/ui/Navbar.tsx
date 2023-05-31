@@ -20,8 +20,8 @@ export const Navbar:React.FC = ():JSX.Element => {
           <Link href="/">
          
          
-            <Text color='white' h2>P</Text>
-            <Text color='white' h3>okémons</Text>
+            <Text color='white' h2>Pokemons</Text>
+          {/*   <Text color='white' h3>okémons</Text> */}
           </Link>
 
         
