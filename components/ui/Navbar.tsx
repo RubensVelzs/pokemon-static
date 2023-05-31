@@ -27,6 +27,12 @@ export const Navbar:React.FC = ():JSX.Element => {
         
 
        <Spacer css={{flex:1}}/>
+       <Spacer css={{flex:1}}/>
+       <Spacer css={{flex:1}}/>
+       <Spacer css={{flex:1}}/>
+       <Spacer css={{flex:1}}/>
+       <Spacer css={{flex:1}}/>
+       <Spacer css={{flex:1}}/>
       
       <Link href="/favorites">
         <Text color='white'>Favoritos</Text>
