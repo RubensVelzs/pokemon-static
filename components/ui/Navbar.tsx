@@ -24,9 +24,7 @@ export const Navbar:React.FC = ():JSX.Element => {
             <Text color='white' h3>okémons</Text> */}
           </Link>
 
-        
-
-      
+          <Spacer></Spacer>      
       
       <Link href="/favorites">
         <Text color='white'>Favoritos</Text>
