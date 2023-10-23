@@ -35,7 +35,7 @@ const PokemonPage:NextPage<IPokemonPageProps> = (props):JSX.Element => {
                   {pokemon?.name}
                 </Text>
                 <Button color="gradient" ghost>
-                  Guardar en Favoritos
+                  Guardar en Favoritossss
                 </Button>
               </Card.Header>
               <Card.Body>
