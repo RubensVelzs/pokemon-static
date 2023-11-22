@@ -28,6 +28,7 @@ const PokemonPage:NextPage<IPokemonPageProps> = (props):JSX.Element => {
               </Card.Body>
             </Card>
           </Grid>
+          jeje
           <Grid xs={12} sm={8}>
             <Card css={{padding:"12px"}}>
               <Card.Header css={{display:"flex", justifyContent:"space-between"}}>
